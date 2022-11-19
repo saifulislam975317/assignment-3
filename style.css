@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+.single-carousel{
+    background: url('images/banner.png');
+    height: 500px;
+    width: 100%;
+    position: relative;
+   
+}
+
+.carousel-details{
+    position: absolute;
+    left: 30%;
+    bottom: 100px;
+    color: white;
+}
+
+ul li{
+    list-style: none;
+}
+
+.third-card{
+    border: none;
+    box-shadow: 10px 10px 10px gray;
+    background-color: #2192FF;
+    color: white;
+
+}
+.third-footer button{
+    border: none;
+    color: #2192FF;
+    background-color: white;
+   
+}
+
+.notification{
+    margin-right: 30px;
+}
+
+.client{
+    width: 420px;
+    box-shadow: 10px 10px 10px gray;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+}
+ 
+
