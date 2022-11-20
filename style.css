@@ -22,10 +22,17 @@ ul li{
 
 .third-card{
     border: none;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
     background-color: #2192FF;
     color: white;
+    cursor: pointer;
+    transition: .7s;
+    
 
+}
+.third-card:hover{
+    transform: scale(1.04);
+    cursor: pointer;
 }
 .third-footer button{
     border: none;
@@ -38,18 +45,27 @@ ul li{
     margin-right: 30px;
 }
 
+
+
 .client{
     width: 420px;
-    box-shadow: 10px 10px 10px gray;
-    padding: 20px;
+    padding:40px 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
+    transition: .7s;
+}
+.client:hover{
+    background-color: #fff;
+    cursor: pointer;
+    transform: scale(1.02);
+    
 }
 
 footer{
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -58,5 +74,9 @@ footer a{
     font-size: 1.3em;
     color: white;
 }
- 
+.saiful{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
